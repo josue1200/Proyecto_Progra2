@@ -8,6 +8,7 @@ package Modelo;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -123,7 +124,24 @@ public class Cliente {
         }
         return tblCliente;
   }
-   
+  
+    public HashMap ListadoClientes(){
+        HashMap<String,String> Lista=new HashMap();
+        try {
+            Con=new Conexion();
+            String query="select idclientes as id,Nombres from clientes;";
+            Con.abrir_conexion();
+            ResultSet consulta=Con.conexionbd.createStatement().executeQuery(query);
+            while (consulta.next()) {
+                Lista.put(consulta.getString("id"),consulta.getString("Nombres") );                
+            }
+            Con.cerrar_conexion();
+        } catch (SQLException e) {
+            System.out.println("Error >:V "+e.getMessage());
+        }
+        return Lista;
+    }
+  
   public int AgregarCliente(){
         int resultado=0;
         try {

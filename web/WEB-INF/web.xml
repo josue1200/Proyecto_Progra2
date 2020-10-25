@@ -32,6 +32,10 @@
         <servlet-name>sr_nuevo</servlet-name>
         <servlet-class>Controlador.sr_nuevo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>sr_Maesto_VentasDetalle</servlet-name>
+        <servlet-class>Controlador.sr_Maesto_VentasDetalle</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>sr_marcas</servlet-name>
         <url-pattern>/sr_marcas</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>sr_nuevo</servlet-name>
         <url-pattern>/sr_nuevo</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>sr_Maesto_VentasDetalle</servlet-name>
+        <url-pattern>/sr_Maesto_VentasDetalle</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
