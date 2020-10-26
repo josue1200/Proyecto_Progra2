@@ -129,8 +129,8 @@
       .cardimg{
         display: block;
         margin: auto;
-        width: 140px;
-        margin-bottom: 40px;
+        width: 250px;
+        margin-bottom: 80px;
       }
       .parrafo{
         color: #000;
@@ -227,7 +227,11 @@
           <img class="logo" src="1.png" width="60">
           <br>
           <li>
+
             <h1 class="titulo">GRUPO 7 UMG </h1>
+
+            <h1 class="titulo">GRUPO #7 UMG </h1>
+
           </li>
                     <form action="sr_inicio" method="post">
                         <h6 class="text-muted"><input type="submit" value="Cerrar Sesion" class="ini" id="cerrarsesion" name="cerrarsesion"/></h6>
@@ -241,7 +245,11 @@
       </div>
       <div class="separador"></div>
       
+
       <h1 style='font-family :Bowlby One SC;'>Bienvenido de nuevo: <h1 style='font-family :Bowlby One SC; color: #0057A0'><%=usuario%></h1></h1>
+
+      <h1 style='font-family :Bowlby One SC; text-align: center;' >Bienvenido de nuevo: <h1 style='font-family :Bowlby One SC; color: #0057A0; text-align: center; '><%=usuario%></h1></h1>
+
      
        <%
     
