@@ -30,6 +30,77 @@
 
         <title>JSP Page</title>
     </head>
+    <style>
+         body{
+            font-family: 'Roboto', sans-serif;
+            background-color: #EEEEEE;
+        }
+        .titulo{
+            text-align: center;
+            color: #0057A0;
+            font-weight: bold;
+        }    
+         .ini{
+        color: #0057A0;
+        position: relative;
+        float: right;
+        margin-top: 20px;
+        margin-right: 40px;
+        font-size: 17px;
+        text-decoration: none;
+      }
+        .contenedor{
+            background: #fff;
+            border-radius: 2px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 6px rgba(0,0,0,0.24);
+            width: 70%; 
+            padding: 3%;
+            display: block;
+            margin: auto;
+        }     
+        .regresar{
+            position: fixed;
+            margin: 10px;
+        } 
+
+        table { 
+          font-family: 'Arial';
+          margin: 25px auto;
+          border-collapse: collapse;
+          border: 1px solid #eee;
+          border-bottom: 2px solid #00cccc;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+        }
+        table tr:hover {
+          background: #f4f4f4;
+        }
+        table tr:hover td {
+          color: #555;
+        }
+        table th, table td {
+          color: #999;
+          border: 1px solid #eee;
+          padding: 12px 35px;
+          border-collapse: collapse;
+        }
+        table th {
+          background: #208FF3;
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 10px;
+        }
+        table th.last {
+          border-right: none;
+        }
+        .contTable{
+          font-size: 10px;
+        }
+        footer{
+        background-color: #1e1e1e;
+        padding: 10px 20px;
+      }
+
+    </style>
     <body>
           <form action="sr_inicio" method="post">
             <h6 class="ini"><input type="submit" value="Cerrar Sesion" class="btn btn-dark" id="cerrarsesion" name="cerrarsesion"/></h6>
@@ -92,10 +163,11 @@
                     
                     %>
     </select>
-    
+    <br>
     <label for="text">Fecha de Ingreso</label>
     <input type="text" class="form-control" placeholder="Escriba la fecha de ingreso" id="txt_fi" value="0" name="txt_fi" >
-<button name="boton_agregar" id="boton_agregar" value="agregar" class="btn btn-success">Agregar</button>
+<br>
+    <button name="boton_agregar" id="boton_agregar" value="agregar" class="btn btn-success">Agregar</button>
   <button name="boton_Modificar" id="boton_Modificar" value="modificar" class="btn btn-primary">Modificar</button>
   <button name="boton_Eliminar" id="boton_Eliminar" value="eliminar" class="btn btn-danger" onclick="javascript:if(!confirm('¿Desea Eliminar?'))return false">Eliminar</button>
   
