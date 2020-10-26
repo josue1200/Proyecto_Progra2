@@ -7,6 +7,7 @@ Created on : 16/10/2020, 05:28:56 PM
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <head> <title>PROYECTO Final...</title></head>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -21,8 +22,22 @@ Created on : 16/10/2020, 05:28:56 PM
        margin: 0;
        padding: 0;
        font-family: 'Roboto', sans-serif;
-       background-color: #EEEEEE;
+       background:url(imagenes/111.jpg);
+       
+    
+      
+   
+     
+     
+    
+
      }
+       
+         
+     
+
+     
+     
      .navbar{
       margin-top: -40px;
       background-color: #fff;
@@ -42,10 +57,11 @@ Created on : 16/10/2020, 05:28:56 PM
       display: inline;
      }
      .titulo{
-      color: #0057A0;
-      font-family: Helvetica;
+         color: #ffffff;
+      font-family: Lucida Handwriting;
+     
       display: inline;
-      margin-left: 20px;
+      margin-left: 25px;
       position: fixed;
       margin-top: 15px;
 
@@ -53,25 +69,39 @@ Created on : 16/10/2020, 05:28:56 PM
      
       
    </style>
-    <body style=' background-color: #8BC2E1'>
-        <h1 class="titulo" >Login</h1>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+ 
+    <body style=' background-color: #ffffff;'>
+        <h1 class="titulo"> <i><strong>Login</strong> </i></h1>
       <form action="sr_inicio" method="post" class="container">
 
             <div class="form-group">
-                <h1 style="text-align: center; color: #ffffff">Iniciar Sesion</h1><br>
+                
+               
+                <h1 style="text-align: center; color: #ffffff; font-family: Bell MT;text-shadow: 1px 1px 1px #ffffff "><i>Iniciar Sesion</i></h1><br>
+                
+                
+               
+                
             </div><br>
             <div class="form-input ">
-                <label style="color: #ffffff">Usuario</label>
+                <label style="color: #ffffff; font-family: Lucida Sans Typewriter; text-shadow: 2px 3px 3px write"><i>Usuario</i></label>
                 <input type="text" name="usuario" class="form-control" required=""><br>
+                
             </div>
             <div class="form-group">
-                <label style="color: #ffffff">Password</label>
+                <label style="color: #ffffff; font-family: Lucida Sans Typewriter;text-shadow: 2px 3px 3px write">Password</label>
                 <input type="password" name="pass" class="form-control" required="">
 
             </div>
             <br>
             
-                <button id="btn_ingresar" name="btn_ingresar" value="ingresar" class="btn btn-primary">Ingresar</button>
+                <button id="btn_ingresar" name="btn_ingresar" value="ingresar" class="btn btn-primary"><i>Ingresar</i></button>
            
            
 

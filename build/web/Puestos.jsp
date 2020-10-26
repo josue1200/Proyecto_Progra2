@@ -24,11 +24,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <title>JSP Page</title>
     </head>
+    <br/>
+    <br/>
+    <br/>
     <style>
+        
+        
          body{
             font-family: 'Roboto', sans-serif;
             background-color: #EEEEEE;
         }
+        
         .titulo{
             text-align: center;
             color: #0057A0;
