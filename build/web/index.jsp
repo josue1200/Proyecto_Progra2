@@ -17,6 +17,7 @@ Created on : 16/10/2020, 05:28:56 PM
    
         <title>JSP Page</title>
     </head>
+    <body>
     <style>
      body{
        margin: 0;
@@ -26,11 +27,6 @@ Created on : 16/10/2020, 05:28:56 PM
 
      }
        
-         
-     
-
-     
-     
      .navbar{
       margin-top: -40px;
       background-color: #fff;
@@ -66,24 +62,6 @@ Created on : 16/10/2020, 05:28:56 PM
    <br>
    <br>
    <br>
-   
-    <body style=' background-color: #8BC2E1'>
-        <h1 class="titulo" >Login</h1>
-      <form action="sr_inicio" method="post" class="container">
-
-            <div class="form-group">
-            <h1 style="text-align: center; color: #ffffff; font-family:Bookman Old Style;text-shadow: 1px 1px 1px"><i>Iniciar Sesion</i></h1><br>    
-            </div><br>
-            <div class="form-input ">
-                <label style="color: #ffffff; font-family: Comic Sans MS; text-shadow:  "><i>Usuario</i></label>
-=======
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
- 
     <body style=' background-color: #ffffff;'>
         <h1 class="titulo"> <i><strong>Login</strong> </i></h1>
       <form action="sr_inicio" method="post" class="container">
@@ -119,6 +97,6 @@ Created on : 16/10/2020, 05:28:56 PM
            
 
         </form>
-        
+    </body>
     </body>
 </html>
