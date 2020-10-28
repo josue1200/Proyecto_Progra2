@@ -17,6 +17,7 @@ Created on : 16/10/2020, 05:28:56 PM
    
         <title>JSP Page</title>
     </head>
+    <body>
     <style>
      body{
        margin: 0;
@@ -35,11 +36,6 @@ Created on : 16/10/2020, 05:28:56 PM
 
      }
        
-         
-     
-
-     
-     
      .navbar{
       margin-top: -40px;
       background-color: #fff;
@@ -72,7 +68,11 @@ Created on : 16/10/2020, 05:28:56 PM
       
    </style>
 
-   
+   <br>
+   <br>
+   <br>
+    <body style=' background-color: #ffffff;'>
+
         <h1 class="titulo"> <i><strong>Login</strong> </i></h1>
       <form action="sr_inicio" method="post" class="container">
 
@@ -108,6 +108,6 @@ Created on : 16/10/2020, 05:28:56 PM
            
 
         </form>
-        
+    </body>
     </body>
 </html>
