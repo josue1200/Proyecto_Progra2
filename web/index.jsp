@@ -88,11 +88,9 @@ Created on : 16/10/2020, 05:28:56 PM
 
     <br/>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    
  
+
     <body style=' background-color: #ffffff;'>
         <h1 class="titulo"> <i><strong>Login</strong> </i></h1>
       <form action="sr_inicio" method="post" class="container">
@@ -114,7 +112,9 @@ Created on : 16/10/2020, 05:28:56 PM
             </div>
             <div class="form-group">
 
+
                 <label style="color: #ffffff; font-family: Comic Sans MS;text-shadow: "><i>Password</i></label>
+
 
                 <label style="color: #ffffff; font-family: Lucida Sans Typewriter;text-shadow: 2px 3px 3px write">Password</label>
 
