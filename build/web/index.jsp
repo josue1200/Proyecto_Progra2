@@ -24,6 +24,15 @@ Created on : 16/10/2020, 05:28:56 PM
        font-family: 'Roboto', sans-serif;
        background:url(imagenes/111.jpg);
 
+       
+    
+      
+   
+     
+     
+    
+
+
      }
        
          
@@ -102,7 +111,6 @@ Created on : 16/10/2020, 05:28:56 PM
                 
             </div>
             <div class="form-group">
-
 
 
                 <label style="color: #ffffff; font-family: Comic Sans MS;text-shadow: "><i>Password</i></label>
