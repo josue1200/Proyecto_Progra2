@@ -54,8 +54,10 @@
       display: inline;
      }
      .titulo{
+         
+
          color: #ffffff;
-      font-family :Bowlby One SC; 
+      font-family :Bookman Old Style; 
       display: inline;
       margin-left: 20px;
       position: fixed;
@@ -241,14 +243,14 @@
       </div>
        
       <div class="fondo">
-        <h1 class="txt" style='font-family :Bowlby One SC; '>PROYECTO FINAL</h1>
+        <h1 class="txt" style='font-family :Bookman Old Style; '>PROYECTO FINAL</h1>
       </div>
       <div class="separador"></div>
       
 
       <h1 style='font-family :Bowlby One SC;'>Bienvenido de nuevo: <h1 style='font-family :Bowlby One SC; color: #0057A0'><%=usuario%></h1></h1>
 
-      <h1 style='font-family :Bowlby One SC; text-align: center;' >Bienvenido de nuevo: <h1 style='font-family :Bowlby One SC; color: #0057A0; text-align: center; '><%=usuario%></h1></h1>
+      <h1 style='font-family :Bookman Old Style; text-align: center;' >Bienvenido de nuevo: <h1 style='font-family :Bookman Old Style; color: #0057A0; text-align: center; '><%=usuario%></h1></h1>
 
      
        <%
