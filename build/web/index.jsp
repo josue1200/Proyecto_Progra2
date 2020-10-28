@@ -25,15 +25,6 @@ Created on : 16/10/2020, 05:28:56 PM
        font-family: 'Roboto', sans-serif;
        background:url(imagenes/111.jpg);
 
-       
-    
-      
-   
-     
-     
-    
-
-
      }
        
      .navbar{
@@ -67,6 +58,7 @@ Created on : 16/10/2020, 05:28:56 PM
      
       
    </style>
+
 
    <br>
    <br>
