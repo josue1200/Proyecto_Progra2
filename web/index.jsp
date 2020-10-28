@@ -23,6 +23,7 @@ Created on : 16/10/2020, 05:28:56 PM
        padding: 0;
        font-family: 'Roboto', sans-serif;
        background:url(imagenes/111.jpg);
+
        
     
       
@@ -30,6 +31,7 @@ Created on : 16/10/2020, 05:28:56 PM
      
      
     
+
 
      }
        
@@ -69,6 +71,21 @@ Created on : 16/10/2020, 05:28:56 PM
      
       
    </style>
+
+   <br>
+   <br>
+   <br>
+   
+    <body style=' background-color: #8BC2E1'>
+        <h1 class="titulo" >Login</h1>
+      <form action="sr_inicio" method="post" class="container">
+
+            <div class="form-group">
+            <h1 style="text-align: center; color: #ffffff; font-family:Bookman Old Style;text-shadow: 1px 1px 1px"><i>Iniciar Sesion</i></h1><br>    
+            </div><br>
+            <div class="form-input ">
+                <label style="color: #ffffff; font-family: Comic Sans MS; text-shadow:  "><i>Usuario</i></label>
+
     <br/>
     <br/>
     
@@ -95,7 +112,12 @@ Created on : 16/10/2020, 05:28:56 PM
             </div>
             <div class="form-group">
 
+
+                <label style="color: #ffffff; font-family: Comic Sans MS;text-shadow: "><i>Password</i></label>
+
+
                 <label style="color: #ffffff; font-family: Lucida Sans Typewriter;text-shadow: 2px 3px 3px write">Password</label>
+
                 <input type="password" name="pass" class="form-control" required="">
 
             </div>

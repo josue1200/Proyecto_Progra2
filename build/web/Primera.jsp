@@ -131,8 +131,8 @@
       .cardimg{
         display: block;
         margin: auto;
-        width: 250px;
-        margin-bottom: 80px;
+        width: 140px;
+        margin-bottom: 40px;
       }
       .parrafo{
         color: #000;
@@ -230,9 +230,13 @@
           <br>
           <li>
 
+
             <h1 class="titulo">GRUPO 7 UMG </h1>
 
-            <h1 class="titulo">GRUPO #7 UMG </h1>
+      
+
+
+            
 
           </li>
                     <form action="sr_inicio" method="post">
@@ -248,9 +252,13 @@
       <div class="separador"></div>
       
 
-      <h1 style='font-family :Bowlby One SC;'>Bienvenido de nuevo: <h1 style='font-family :Bowlby One SC; color: #0057A0'><%=usuario%></h1></h1>
+
+      
 
       <h1 style='font-family :Bookman Old Style; text-align: center;' >Bienvenido de nuevo: <h1 style='font-family :Bookman Old Style; color: #0057A0; text-align: center; '><%=usuario%></h1></h1>
+
+
+   
 
      
        <%
