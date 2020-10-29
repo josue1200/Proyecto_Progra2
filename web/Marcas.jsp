@@ -101,7 +101,7 @@
             <h6 class="ini"><input type="submit" value="Cerrar Sesion" class="btn btn-dark" id="cerrarsesion" name="cerrarsesion"/></h6>
         </form>
    
-        <h1 class="titulo">CRUD De Marcas</h1>
+        <h1 class='titulo';">CRUD De Marcas</h1>
         <div class="container">
         <form action="sr_marcas" method="POST" class="form-group">
              <a href="Primera.jsp" class="btn btn-info" role="button">Regresar</a><br><br>

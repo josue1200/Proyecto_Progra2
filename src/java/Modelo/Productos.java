@@ -8,7 +8,6 @@ package Modelo;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -199,21 +198,4 @@ public class Productos {
         }
         return resultado;
     }
-            public HashMap ListadoProductos(){
-        HashMap<String,String> Lista=new HashMap();
-        try {
-            Con=new Conexion();
-            String query="select idProductos as id,Productos from productos;";
-            Con.abrir_conexion();
-            ResultSet consulta=Con.conexionbd.createStatement().executeQuery(query);
-            while (consulta.next()) {
-                Lista.put(consulta.getString("id"),consulta.getString("Productos") );                
-            }
-            Con.cerrar_conexion();
-        } catch (SQLException e) {
-            System.out.println("Error >:V "+e.getMessage());
-        }
-        return Lista;
-    }
-            
 }
