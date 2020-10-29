@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< Updated upstream
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/src/java/Modelo/Maestro_VentasDetalle.java</file>
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/src/java/Modelo/Productos.java</file>
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/web/index.jsp</file>
@@ -11,6 +12,9 @@
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/web/Productos.jsp</file>
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/src/java/Modelo/Cliente.java</file>
             <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/src/java/Modelo/Ventas.java</file>
+=======
+            <file>file:/C:/Users/Miguel%20Rivera/Documents/GitHub/Proyecto_Progra2/web/Primera.jsp</file>
+>>>>>>> Stashed changes
         </group>
     </open-files>
 </project-private>
